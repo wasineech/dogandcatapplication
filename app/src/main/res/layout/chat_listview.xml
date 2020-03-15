@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/chat1"
+    android:background="#ffffff">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pet_profile1"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/pet_profile"/>
+
+        <TextView
+            android:id="@+id/pet_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pet_profile1"
+            android:layout_marginLeft="15dp"
+            android:text="เจสเจส"
+            android:fontFamily="@font/superspaceregular"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/post_message1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pet_profile1"
+            android:layout_toLeftOf="@id/post_time1"
+            android:layout_below="@+id/pet_name1"
+            android:layout_marginLeft="15dp"
+            android:text="สวัสดีครับ"
+            android:fontFamily="@font/superspaceregular"
+            android:textColor="#b1b1b1"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/post_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/pet_name1"
+            android:layout_marginRight="10dp"
+            android:text="11:59 AM"
+            android:fontFamily="@font/superspaceregular"
+            android:textColor="#b1b1b1"
+            android:textSize="20sp"/>
+</RelativeLayout>
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:id="@+id/chat1"-->
+    <!--android:background="#ffffff"-->
+    <!--android:layout_marginBottom="1dp">-->
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/pet_profile1"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:src="@drawable/pet_profile"/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginBottom="10dp">-->
+            <!--<TextView-->
+                <!--android:id="@+id/pet_name1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:text="เจสเจส"-->
+                <!--android:fontFamily="@font/superspaceregular"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/post_time1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="สวัสดีครับ"-->
+                <!--android:fontFamily="@font/superspaceregular"-->
+                <!--android:textColor="#b1b1b1"-->
+                <!--android:textSize="20sp"/>-->
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+        <!--android:id="@+id/post_time11"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:text="11:59 AM"-->
+        <!--android:fontFamily="@font/superspaceregular"-->
+        <!--android:textColor="#b1b1b1"-->
+        <!--android:textSize="20sp"/>-->
+<!--</LinearLayout>-->

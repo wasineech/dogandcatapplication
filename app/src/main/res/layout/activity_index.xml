@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg11"
+    tools:context=".IndexActivity">
+
+    <!--<ImageView-->
+    <!--android:layout_widt
+    h="130dp"-->
+    <!--android:layout_height="130dp"-->
+    <!--android:layout_marginTop="120dp"-->
+    <!--android:layout_marginLeft="135dp"-->
+    <!--android:src="@drawable/dogcat_fill" />-->
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/btnSignup"
+        android:background="@drawable/reg_button"
+        android:textColor="#ffffff"
+        android:padding="12dp"
+        android:text="SIGN UP"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="485dp"/>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/btnLogin"
+        android:background="@drawable/login_button"
+        android:textColor="#565656"
+        android:alpha = "1.5"
+        android:padding="12dp"
+        android:text="LOGIN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

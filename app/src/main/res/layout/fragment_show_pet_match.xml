@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowPetMatchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#e9e9e9">
+
+        <LinearLayout
+            android:id="@+id/show_pet_match"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="25dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/pet_profile"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/cat"/>
+
+                <TextView
+                    android:id="@+id/pet_name_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:text="โบเก้(เพศเมีย)"
+                    android:layout_below="@+id/pet_profile"
+                    android:fontFamily="@font/superspaceregular"
+                    android:textColor="#000000"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:id="@+id/pet_age_breed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/pet_name_gender"
+                    android:text="อายุ: 8 เดือน สายพันธุ์: แบงกอล"
+                    android:fontFamily="@font/superspaceregular"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnMatch"
+                    android:layout_below="@+id/pet_age_breed"
+                    android:background="@color/colorNav"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/superspaceregular"
+                    android:text="ตอบรับการแมทซ์"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="70dp"/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnUnMatch"
+                    android:layout_below="@+id/pet_age_breed"
+                    android:layout_toRightOf="@id/btnMatch"
+                    android:background="#C54953"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/superspaceregular"
+                    android:text="ไม่สนใจ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

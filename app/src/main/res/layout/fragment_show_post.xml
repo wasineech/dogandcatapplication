@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/home_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/pet_profile"
+                        android:layout_width="50dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/pet_profile"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/pet_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="เจสเจส"
+                            android:fontFamily="@font/superspaceregular"
+                            android:textColor="#000000"
+                            android:textSize="20sp"/>
+                        <TextView
+                            android:id="@+id/post_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="1 ชั่วโมงที่แล้ว"
+                            android:fontFamily="@font/superspaceregular"
+                            android:textColor="#b1b1b1"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="95dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/ellipsis"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/pet_profile"/>
+                <TextView
+                    android:id="@+id/pet_caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="15dp"
+                    android:text="เจสเจสชอบนอนทั้งวัน"
+                    android:fontFamily="@font/superspaceregular"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:paddingBottom="20dp">
+                    <Button android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/btnLove"
+                        android:background="@drawable/heart1"
+                        android:layout_marginTop="0dp"/>
+                    <Button android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/btnCm"
+                        android:background="@drawable/comment1"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="25dp"/>
+                    <TextView
+                        android:id="@+id/pet_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="45dp"
+                        android:text="ความคิดเเห็น 1 รายการ"
+                        android:fontFamily="@font/superspaceregular"
+                        android:textColor="#7c7c7c"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/pet_profile_c"
+                        android:layout_width="50dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/cat"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/chat_bg"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/pet_name_cc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="โบเก้"
+                            android:fontFamily="@font/superspaceregular"
+                            android:padding="10dp"
+                            android:textColor="#000000"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:id="@+id/pet_name_c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="น้องเจสเจสน่ารักจัง"
+                            android:fontFamily="@font/superspaceregular"
+                            android:padding="10dp"
+                            android:textColor="#000000"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/pet_profile_c2"
+                        android:layout_width="50dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/cat"/>
+
+                    <EditText
+                        android:id="@+id/edit_chat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#e9e9e9"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="เพิ่มความคิดเห็น..."
+                        android:paddingBottom="15dp" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="120dp"
+                    android:background="#111111"
+                    android:fontFamily="@font/superspaceregular"
+                    android:text="โพสต์"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

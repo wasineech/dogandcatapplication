@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/show_math"
+        android:title="แมทช์"
+        />
+    <item
+        android:id="@+id/edit_profile"
+        android:title="แก้ไขโปรไฟล์"
+        />
+    <item
+        android:id="@+id/edit_location"
+        android:title="แก้ไขที่อยู่"/>
+
+    <item
+        android:id="@+id/select_account"
+        android:title="เปลี่ยนสัตว์เลี้ยง"/>
+
+    <item
+        android:id="@+id/del_account"
+        android:title="ลบสัตว์เลี้ยง"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="ออกจากระบบ"/>
+</menu>
